@@ -11,3 +11,4 @@
 11. PHP开发在线聊天室
 12. 基于Bootstrap和PHP实现百度翻译
 >Link:http://www.jianshu.com/p/48d004c1bb9b#
+13. 生成验证码
