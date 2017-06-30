@@ -1,0 +1,14 @@
+body {
+    background-image: url("../src/bg.png");
+}
+
+.container {
+    margin-top: 50px;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.questions_list {
+    margin-top: 30px;
+}
