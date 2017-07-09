@@ -1,0 +1,13 @@
+{
+    "name": "jkooll/websocketdemo",
+    "authors": [
+        {
+            "name": "JKooll",
+            "email": "jerryzhao1212@gmail.com"
+        }
+    ],
+    "require": {
+        "workerman/workerman": "^3.3",
+        "bacon/bacon-qr-code": "^1.0"
+    }
+}
