@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>YouTodo</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My style file -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="icheck/skins/all.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navigation-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">You <strong>Todo</strong></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="glyphicon glyphicon-user"></i>
+                            Jerry
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="pull-left">
+                        <h1 class="header-title">Todo list</h1>
+                    </div>
+                    <div class="pull-right">
+                        <a href="#" class="btn btn-success show-todolist-modal">Create new list</a>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="todolist-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Create New List</h4>
+                                <p>of <strong>To do list 1</strong></p>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            List Name
+                                        </label>
+                                        <input type="text" class="form-control input-lg">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            List Name
+                                        </label>
+                                        <textarea class="form-control"  rows="2"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+                <div class="modal fade" id="task-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Todo List</h4>
+                                <p>of <strong>To do list 1</strong></p>
+                            </div>
+                            <div class="modal-body">
+                                <div class="panel panel-default">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <td width="50" style="vertical-align: middle;">
+                                                    <input type="checkbox" name="check_all" id="check_all">
+                                                </td>
+                                                <td>
+                                                    <input type="text" placeholder="Enter New Task" class="task-input">
+                                                </td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" class="check-item">
+                                                </td>
+                                                <td class="task-item">
+                                                    The first task
+                                                    <div class="row-buttons">
+                                                        <div class="btn btn-xs btn-danger">
+                                                            <i class="glyphicon glyphicon-remove"></i>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" class="check-item">
+                                                </td>
+                                                <td class="task-item done">
+                                                    The second task
+                                                    <div class="row-buttons">
+                                                        <div class="btn btn-xs btn-danger">
+                                                            <i class="glyphicon glyphicon-remove"></i>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" class="check-item">
+                                                </td>
+                                                <td class="task-item">
+                                                    The third task
+                                                    <div class="row-buttons">
+                                                        <div class="btn btn-xs btn-danger">
+                                                            <i class="glyphicon glyphicon-remove"></i>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="modal-footer clearfix">
+                                <div class="pull-left">
+                                    <a href="" class="btn btn-xs btn-default active">All</a>
+                                    <a href="" class="btn btn-xs btn-default">Active</a>
+                                    <a href="" class="btn btn-xs btn-default">Completed</a>
+                                </div>
+                                <div class="pull-right">
+                                    <small>3 items left</small>
+                                </div>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">List group item <span class="badge">10 tasks</span></h4>
+                            <p class="list-group-item-text">
+                                Hold my hand,you won't get lost even with eyes closed.
+                            </p>
+                            <div class="buttons">
+                                <a href="#" class="btn btn-info show-task-modal btn-xs" title="Manage Tasks">
+                                    <i class="glyphicon glyphicon-ok"></i>
+                                </a>
+                                <a href="#" class="btn btn-default show-todolist-modal btn-xs" title="Edit">
+                                    <i class="glyphicon glyphicon-edit"></i>
+                                </a>
+                                <a href="#" class="btn btn-danger btn-xs" title="Delete">
+                                    <i class="glyphicon glyphicon-remove"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">List group item <span class="badge">10 tasks</span></h4>
+                            <p class="list-group-item-text">
+                                Total umbrella for someone else if he, you're just not for him in the rain.
+                            </p>
+                            <div class="buttons">
+                                <a href="#" class="btn btn-info show-task-modal btn-xs" title="Manage Tasks">
+                                    <i class="glyphicon glyphicon-ok"></i>
+                                </a>
+                                <a href="#" class="btn btn-default show-todolist-modal btn-xs" title="Edit">
+                                    <i class="glyphicon glyphicon-edit"></i>
+                                </a>
+                                <a href="#" class="btn btn-danger btn-xs" title="Delete">
+                                    <i class="glyphicon glyphicon-remove"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">List group item <span class="badge">10 tasks</span></h4>
+                            <p class="list-group-item-text">
+                                You keep on concentrating on the things you wish you had or things you wish you didn’t
+                                have and you sort of forget what you do have.-Nick Vujicic
+                            </p>
+                            <div class="buttons">
+                                <a href="#" class="btn btn-info show-task-modal btn-xs" title="Manage Tasks">
+                                    <i class="glyphicon glyphicon-ok"></i>
+                                </a>
+                                <a href="#" class="btn btn-default show-todolist-modal btn-xs" title="Edit">
+                                    <i class="glyphicon glyphicon-edit"></i>
+                                </a>
+                                <a href="#" class="btn btn-danger btn-xs" title="Delete">
+                                    <i class="glyphicon glyphicon-remove"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="panel-footer">
+                        <small>3 list items</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="icheck/icheck.min.js"></script>
+</body>
+</html>
