@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet">
+        <script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+        <title>倒计时器</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function clock()
+        {
+            var date = new Date();
+            var hour = date.getHours();
+            var minute = date.getMinutes();
+            var seconds = date.getSeconds();
+            document.getElementById('time').value = hour + ":" + minute + ":" + seconds;
+        }
+        setInterval(clock, 1000);
+
+        function restTime( setTime )
+        {
+            this.setTime = setTime;
+            this.Time = function()
+            {
+                if( setTime == 0)
+                    clearInterval(start);
+                document.getElementById('rest_time').value = setTime--;
+
+            }
+        }
+        function start()
+        {
+            var setTime = document.getElementById('setTime').value;
+            resttime = new restTime( setTime );
+            start = setInterval(resttime.Time, 1000);
+        }
+
+        function restart()
+        {
+            var setTime = document.getElementById('setTime').value;
+            resttime = new restTime( setTime );
+        }
+
+        </script>
+        <h1>NOW：
+        <input type="text" id="time" value="" />
+    </h1>
+    <h2>
+        <input class="form-control" type="text" id="rest_time" readonly value="">
+    </h2>
+    <button type="button" name="button" onclick="start();">开始计时</button>
+    <button type="button" name="button">重新计时</button>
+    <button type="button" name="button" onclick="restart();">设置时间</button>
+    <input class="form-control" type="text" id="setTime" value="" >
+    <select class="form-control" id="select_unit">
+        <option>时</option>
+        <option>分</option>
+        <option>秒</option>
+    </select>
+    </body>
+</html>

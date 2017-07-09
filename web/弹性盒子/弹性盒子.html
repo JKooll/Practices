@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>弹性盒子</title>
+        <style media="screen">
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .box_1, .box_2, .box_3 {
+                flex: 1 200px;
+                height: 100px;
+                text-align: center;
+                padding: 10px;
+                margin: 10px;
+                background: aqua;
+            }
+            .box_3 {
+                flex: 2 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box_1">
+                This is box1.
+            </div>
+            <div class="box_2">
+                This is box2.
+            </div>
+            <div class="box_3">
+                This is box3.
+            </div>
+        </div>
+    </body>
+</html>

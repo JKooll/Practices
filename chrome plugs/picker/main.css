@@ -1,0 +1,33 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+}
+
+.btn_group, #result {
+    margin: 20px;
+}
+
+#status {
+  /* avoid an excessively wide status text */
+  text-align: center;
+  color: red;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 400px;
+}
+
+.image_item {
+    width: 150px;
+}
+
+.image_item img {
+    z-index : -1;
+}
+
+.download_button {
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    border-top-left-radius: 4px;
+}
