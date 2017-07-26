@@ -1,0 +1,15 @@
+<ion-view title="我" ng-controller="meMainCtrl">
+
+    <ion-nav-buttons side="right">
+      <button class="button" ng-click="">
+          <i class="ion-gear-b" style="font-size:30px"></i>
+      </button>
+    </ion-nav-buttons>
+
+    <ion-content>
+        <a class="button button-positive" ng-click="getImg()">获取照片</a>
+        <p>
+            {{result}}
+        </p>
+    </ion-content>
+</ion-view>

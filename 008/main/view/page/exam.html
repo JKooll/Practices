@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>练习题系统</title>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body onload="next_title()">
+<h1 class="text-center" style="font-size: 400%">练习题</h1>
+
+<div class="text-center" style="font-size: 200%" id="main">
+    <button type="button" class="btn btn-primary" onclick="next_title()">下一题</button>
+    <br />
+    <input type="hidden" id="title_id" value="" />
+    <div id="title"></div>
+    <br />
+    <lable>A<input type="radio" name="select" class="answer_check"value="A" /></lable>
+    <lable>B<input type="radio" name="select" class="answer_check"value="B" /></lable>
+    <lable>C<input type="radio" name="select" class="answer_check"value="C" /></lable>
+    <lable>D<input type="radio" name="select" class="answer_check"value="D" /></lable>
+    <br />
+    <input type="button" class="brn btn-success" value="提交" onclick="answer()"/>
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<!--my js.doc -->
+<script src="js/exam_js.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "require": {
+        "rmccue/requests": "^1.7",
+        "emanueleminotto/simple-html-dom": "^1.5",
+        "catfan/medoo": "^1.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.2"
+    }
+}

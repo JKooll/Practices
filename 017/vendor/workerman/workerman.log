@@ -1,0 +1,193 @@
+2017-04-05 08:01:35 pid:16 Workerman[server.php] start in DEBUG mode
+2017-04-05 08:02:06 pid:16 Workerman[server.php] Stopping ...
+2017-04-05 08:02:06 pid:16 Workerman[server.php] has been stopped
+2017-04-05 08:02:29 pid:21 Workerman[server.php] start in DEBUG mode
+2017-04-05 08:02:45 pid:21 Workerman[server.php] Stopping ...
+2017-04-05 08:02:45 pid:21 Workerman[server.php] has been stopped
+2017-04-05 16:26:41 pid:15 Workerman[server.php] start in DEBUG mode
+2017-04-05 16:31:38 pid:15 Workerman[server.php] Stopping ...
+2017-04-05 16:31:38 pid:15 Workerman[server.php] has been stopped
+2017-04-05 20:18:19 pid:18102 Workerman[server.php] start in DEBUG mode
+2017-04-05 22:06:19 pid:14 Workerman[server.php] start in DEBUG mode
+2017-04-05 22:07:19 pid:15 Workerman[server.php] start in DEBUG mode
+2017-04-05 22:18:33 pid:15 Workerman[server.php] Stopping ...
+2017-04-05 22:18:33 pid:15 Workerman[server.php] has been stopped
+2017-04-05 22:18:34 pid:20 Workerman[server.php] start in DEBUG mode
+2017-04-05 22:19:44 pid:20 Workerman[server.php] Stopping ...
+2017-04-05 22:19:44 pid:20 Workerman[server.php] has been stopped
+2017-04-05 22:19:46 pid:25 Workerman[server.php] start in DEBUG mode
+2017-04-06 07:25:12 pid:14 Workerman[server.php] start in DEBUG mode
+2017-04-06 07:31:16 pid:14 Workerman[server.php] Stopping ...
+2017-04-06 07:31:16 pid:14 Workerman[server.php] has been stopped
+2017-04-06 07:31:33 pid:19 Workerman[server.php] start in DEBUG mode
+2017-04-06 08:26:11 pid:19 Workerman[server.php] Stopping ...
+2017-04-06 08:26:11 pid:19 Workerman[server.php] has been stopped
+2017-04-06 11:29:56 pid:24 Workerman[server.php] start in DEBUG mode
+2017-04-06 11:30:23 pid:24 Workerman[server.php] Stopping ...
+2017-04-06 11:30:23 pid:24 Workerman[server.php] has been stopped
+2017-04-06 12:04:01 pid:29 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:07:29 pid:29 Workerman[server.php] Stopping ...
+2017-04-06 12:07:29 pid:29 Workerman[server.php] has been stopped
+2017-04-06 12:08:05 pid:34 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:11:01 pid:34 Workerman[server.php] Stopping ...
+2017-04-06 12:11:01 pid:34 Workerman[server.php] has been stopped
+2017-04-06 12:11:02 pid:39 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:11:40 pid:39 Workerman[server.php] Stopping ...
+2017-04-06 12:11:40 pid:39 Workerman[server.php] has been stopped
+2017-04-06 12:11:41 pid:44 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:12:53 pid:44 Workerman[server.php] Stopping ...
+2017-04-06 12:12:53 pid:44 Workerman[server.php] has been stopped
+2017-04-06 12:12:54 pid:49 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:13:17 pid:49 Workerman[server.php] Stopping ...
+2017-04-06 12:13:17 pid:49 Workerman[server.php] has been stopped
+2017-04-06 12:13:19 pid:54 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:15:06 pid:54 Workerman[server.php] Stopping ...
+2017-04-06 12:15:06 pid:54 Workerman[server.php] has been stopped
+2017-04-06 12:15:09 pid:59 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:16:09 pid:59 Workerman[server.php] Stopping ...
+2017-04-06 12:16:09 pid:59 Workerman[server.php] has been stopped
+2017-04-06 12:16:15 pid:64 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:17:40 pid:64 Workerman[server.php] Stopping ...
+2017-04-06 12:17:40 pid:64 Workerman[server.php] has been stopped
+2017-04-06 12:17:54 pid:69 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:18:36 pid:69 Workerman[server.php] Stopping ...
+2017-04-06 12:18:36 pid:69 Workerman[server.php] has been stopped
+2017-04-06 12:20:05 pid:74 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:21:03 pid:74 Workerman[server.php] Stopping ...
+2017-04-06 12:21:03 pid:74 Workerman[server.php] has been stopped
+2017-04-06 12:21:05 pid:79 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:26:48 pid:79 Workerman[server.php] Stopping ...
+2017-04-06 12:26:48 pid:79 Workerman[server.php] has been stopped
+2017-04-06 12:26:49 pid:84 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:34:20 pid:84 Workerman[server.php] Stopping ...
+2017-04-06 12:34:20 pid:84 Workerman[server.php] has been stopped
+2017-04-06 12:34:21 pid:89 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:40:29 pid:89 Workerman[server.php] Stopping ...
+2017-04-06 12:40:29 pid:89 Workerman[server.php] has been stopped
+2017-04-06 12:40:31 pid:94 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:41:04 pid:94 Workerman[server.php] Stopping ...
+2017-04-06 12:41:04 pid:94 Workerman[server.php] has been stopped
+2017-04-06 12:41:05 pid:99 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:41:27 pid:99 Workerman[server.php] Stopping ...
+2017-04-06 12:41:27 pid:99 Workerman[server.php] has been stopped
+2017-04-06 12:41:28 pid:104 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:43:49 pid:104 Workerman[server.php] Stopping ...
+2017-04-06 12:43:49 pid:104 Workerman[server.php] has been stopped
+2017-04-06 12:43:50 pid:109 Workerman[server.php] start in DEBUG mode
+2017-04-06 12:45:20 pid:109 Workerman[server.php] Stopping ...
+2017-04-06 12:45:20 pid:109 Workerman[server.php] has been stopped
+2017-04-06 12:45:21 pid:114 Workerman[server.php] start in DEBUG mode
+2017-04-06 13:05:24 pid:15 Workerman[server.php] start in DEBUG mode
+2017-04-06 13:19:18 pid:15 Workerman[server.php] Stopping ...
+2017-04-06 13:19:18 pid:15 Workerman[server.php] has been stopped
+2017-04-06 13:37:44 pid:20 Workerman[server.php] start in DEBUG mode
+2017-04-06 13:39:12 pid:20 Workerman[server.php] Stopping ...
+2017-04-06 13:39:12 pid:20 Workerman[server.php] has been stopped
+2017-04-06 19:44:43 pid:15 Workerman[server.php] start in DEBUG mode
+2017-04-06 19:56:08 pid:15 Workerman[server.php] Stopping ...
+2017-04-06 19:56:08 pid:15 Workerman[server.php] has been stopped
+2017-04-06 19:56:10 pid:20 Workerman[server.php] start in DEBUG mode
+2017-04-06 19:57:22 pid:20 Workerman[server.php] Stopping ...
+2017-04-06 19:57:22 pid:20 Workerman[server.php] has been stopped
+2017-04-06 19:57:33 pid:25 Workerman[server.php] start in DEBUG mode
+2017-04-06 19:58:00 pid:25 Workerman[server.php] Stopping ...
+2017-04-06 19:58:00 pid:25 Workerman[server.php] has been stopped
+2017-04-06 19:58:02 pid:30 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:03:46 pid:30 Workerman[server.php] Stopping ...
+2017-04-06 20:03:46 pid:30 Workerman[server.php] has been stopped
+2017-04-06 20:03:47 pid:35 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:05:17 pid:35 Workerman[server.php] Stopping ...
+2017-04-06 20:05:17 pid:35 Workerman[server.php] has been stopped
+2017-04-06 20:05:18 pid:40 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:05:35 pid:40 Workerman[server.php] Stopping ...
+2017-04-06 20:05:35 pid:40 Workerman[server.php] has been stopped
+2017-04-06 20:05:51 pid:45 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:06:01 pid:45 Workerman[server.php] Stopping ...
+2017-04-06 20:06:01 pid:45 Workerman[server.php] has been stopped
+2017-04-06 20:06:42 pid:50 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:08:17 pid:50 Workerman[server.php] Stopping ...
+2017-04-06 20:08:17 pid:50 Workerman[server.php] has been stopped
+2017-04-06 20:08:22 pid:55 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:08:41 pid:56 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 75
+2017-04-06 20:08:41 pid:55 worker[none:56] exit with status 65280
+2017-04-06 20:12:19 pid:55 Workerman[server.php] Stopping ...
+2017-04-06 20:12:19 pid:55 Workerman[server.php] has been stopped
+2017-04-06 20:12:20 pid:61 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:12:34 pid:64 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 82
+2017-04-06 20:12:34 pid:61 worker[none:64] exit with status 65280
+2017-04-06 20:16:52 pid:61 Workerman[server.php] Stopping ...
+2017-04-06 20:16:52 pid:61 Workerman[server.php] has been stopped
+2017-04-06 20:16:53 pid:67 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:17:06 pid:70 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 82
+2017-04-06 20:17:06 pid:67 worker[none:70] exit with status 65280
+2017-04-06 20:19:00 pid:67 Workerman[server.php] Stopping ...
+2017-04-06 20:19:00 pid:67 Workerman[server.php] has been stopped
+2017-04-06 20:21:18 pid:73 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:22:48 pid:73 Workerman[server.php] Stopping ...
+2017-04-06 20:22:48 pid:73 Workerman[server.php] has been stopped
+2017-04-06 20:22:53 pid:78 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:23:24 pid:78 Workerman[server.php] Stopping ...
+2017-04-06 20:23:24 pid:78 Workerman[server.php] has been stopped
+2017-04-06 20:23:31 pid:83 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:23:45 pid:87 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 81
+2017-04-06 20:23:45 pid:83 worker[none:87] exit with status 65280
+2017-04-06 20:24:39 pid:83 Workerman[server.php] Stopping ...
+2017-04-06 20:24:39 pid:83 Workerman[server.php] has been stopped
+2017-04-06 20:24:40 pid:89 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:24:52 pid:91 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 83
+2017-04-06 20:24:52 pid:89 worker[none:91] exit with status 65280
+2017-04-06 20:25:25 pid:89 Workerman[server.php] Stopping ...
+2017-04-06 20:25:25 pid:89 Workerman[server.php] has been stopped
+2017-04-06 20:25:26 pid:95 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:26:51 pid:95 Workerman[server.php] Stopping ...
+2017-04-06 20:26:51 pid:95 Workerman[server.php] has been stopped
+2017-04-06 20:26:56 pid:100 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:36:06 pid:100 Workerman[server.php] Stopping ...
+2017-04-06 20:36:06 pid:100 Workerman[server.php] has been stopped
+2017-04-06 20:36:22 pid:105 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:37:01 pid:106 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 62
+2017-04-06 20:37:01 pid:105 worker[none:106] exit with status 65280
+2017-04-06 20:38:56 pid:105 Workerman[server.php] Stopping ...
+2017-04-06 20:38:56 pid:105 Workerman[server.php] has been stopped
+2017-04-06 20:39:30 pid:111 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:39:57 pid:115 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 62
+2017-04-06 20:39:57 pid:111 worker[none:115] exit with status 65280
+2017-04-06 20:44:42 pid:112 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 62
+2017-04-06 20:44:42 pid:111 worker[none:112] exit with status 65280
+2017-04-06 20:44:51 pid:113 WORKER EXIT UNEXPECTED E_ERROR Call to a member function send() on a non-object in /mnt/d/AppServ/www/projects/gamesocket/handle.php on line 62
+2017-04-06 20:44:51 pid:111 worker[none:113] exit with status 65280
+2017-04-06 20:45:53 pid:111 Workerman[server.php] Stopping ...
+2017-04-06 20:45:53 pid:111 Workerman[server.php] has been stopped
+2017-04-06 20:45:55 pid:119 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:48:51 pid:119 Workerman[server.php] Stopping ...
+2017-04-06 20:48:51 pid:119 Workerman[server.php] has been stopped
+2017-04-06 20:48:52 pid:124 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:49:49 pid:124 Workerman[server.php] Stopping ...
+2017-04-06 20:49:49 pid:124 Workerman[server.php] has been stopped
+2017-04-06 20:49:55 pid:129 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:53:42 pid:129 Workerman[server.php] Stopping ...
+2017-04-06 20:53:42 pid:129 Workerman[server.php] has been stopped
+2017-04-06 20:53:43 pid:134 Workerman[server.php] start in DEBUG mode
+2017-04-06 20:57:50 pid:134 Workerman[server.php] Stopping ...
+2017-04-06 20:57:50 pid:134 Workerman[server.php] has been stopped
+2017-04-06 20:57:51 pid:139 Workerman[server.php] start in DEBUG mode
+2017-04-06 21:03:18 pid:139 Workerman[server.php] Stopping ...
+2017-04-06 21:03:18 pid:139 Workerman[server.php] has been stopped
+2017-04-06 21:03:19 pid:144 Workerman[server.php] start in DEBUG mode
+2017-04-06 21:05:57 pid:144 Workerman[server.php] Stopping ...
+2017-04-06 21:05:57 pid:144 Workerman[server.php] has been stopped
+2017-04-06 21:05:58 pid:149 Workerman[server.php] start in DEBUG mode
+2017-04-06 21:07:37 pid:149 Workerman[server.php] Stopping ...
+2017-04-06 21:07:37 pid:149 Workerman[server.php] has been stopped
+2017-04-06 21:07:41 pid:154 Workerman[server.php] start in DEBUG mode
+2017-04-06 21:12:05 pid:154 Workerman[server.php] Stopping ...
+2017-04-06 21:12:05 pid:154 Workerman[server.php] has been stopped
+2017-04-06 21:12:06 pid:159 Workerman[server.php] start in DEBUG mode
+2017-04-06 21:13:21 pid:159 Workerman[server.php] Stopping ...
+2017-04-06 21:13:21 pid:159 Workerman[server.php] has been stopped
+2017-04-06 21:13:25 pid:164 Workerman[server.php] start in DEBUG mode
+2017-04-06 21:46:41 pid:164 Workerman[server.php] Stopping ...
+2017-04-06 21:46:41 pid:164 Workerman[server.php] has been stopped
+2017-04-06 21:46:44 pid:169 Workerman[server.php] start in DEBUG mode
+2017-04-06 21:47:17 pid:169 Workerman[server.php] Stopping ...
+2017-04-06 21:47:17 pid:169 Workerman[server.php] has been stopped

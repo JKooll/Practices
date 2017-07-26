@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>课文讲解</title>
+    <script type="text/javascript" src="js/DIY_js.js"></script>
+</head>
+<body onload="run()">
+<input type="text" style="display: none" id="mark"value="kewen" />
+<div style="display: block">
+    <p></p>
+    <p>
+        <section style="margin-top: 2em; padding: 0.5em 0px; white-space: normal; border-style: solid none none; border-top-width: 1px; border-top-color: rgb(0, 183, 236); font-size: 1em; font-family: inherit; font-weight: inherit; text-decoration: inherit; color: rgb(166, 166, 166);" class="wxqq-borderTopColor">
+            <section style="margin-top: -1.2em;text-align: center;text-align: center; padding: 0; border: none; line-height: 1.4;">
+                <span  class="wxqq-bg" style="border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; padding: 8px 23px; color: rgb(255, 255, 255); font-size: 72px; font-family: inherit; font-weight: inherit; text-decoration: inherit; border-color: rgb(112, 216, 255); background-color: rgb(112, 216, 255);">
+                    课文讲解
+                </span>
+                <br />
+                <select name="" id="items" onchange="check( this[selectedIndex].innerText , this[selectedIndex].value)"></select>
+            </section>
+        </section>
+    </p>
+    <p></p>
+    <p>
+        <br/>
+    </p>
+    <section class="135editor">
+        <section style="text-align:center;">
+            <iframe class="video_iframe" style="position: relative;z-index:1;height:800px;width:800px;" scrolling="no" src="" allowfullscreen="" frameborder="0" id="video_src"></iframe>
+        </section>
+        <p class="135brush" data-brushtype="text" style="text-align:center;">
+            <span style="font-size: 55px;" id="video_title"></span>
+        </p>
+    </section>
+    <p>
+        <br/>
+    </p>
+    </div>
+    </body>
+</html>

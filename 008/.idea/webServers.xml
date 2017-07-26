@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c17d7f17-ebc8-4a7b-a0db-4c1ab2b5c372" name="ecing (project level)" url="http://115.28.153.111">
+        <fileTransfer host="115.28.153.111" port="22" rootFolder="/wwwroot/wechat_ecing" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

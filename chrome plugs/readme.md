@@ -1,2 +1,0 @@
-- picker -- 获取网页图片
-- my first extension -- 自动填写表单

@@ -1,0 +1,42 @@
+<ion-view title="查询">
+
+    <ion-content class="has-header" ng-controller="queryMainCtrl">
+
+        <div ng-controller="queryMainCtrl.queryUserCombatList">
+            <div class="list">
+                <label class="item item-input">
+                    <input type="text" ng-model="user.userName" placeholder="游戏ID">
+                </label>
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        大区
+                    </div>
+                    <select ng-model = "user.area" ng-options="x.name for x in options" required="required">
+                        <option value="">请选择大区</option>
+                    </select>
+
+                </label>
+
+                <button class="button button-full button-positive" ng-click="submit()">查询</button>
+            </div>
+
+            <ion-list>
+
+              <ion-item collection-repeat="combat in combatList"
+                collection-item-width="100%" collection-item-height="20%" class="item item-thumbnail-left">
+
+                  <img src="img/ben.png"/>
+                  <h2>game_mode : {{combat.game_mode}}</h2>
+                  <p>
+                      {{combat.battle_time}}
+                  </p>
+
+              </ion-item>
+
+            </ion-list>
+
+        </div>
+
+    </ion-content>
+
+</ion-view>

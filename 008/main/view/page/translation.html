@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <title>翻译</title>
+</head>
+<body>
+<div id="main" class="text-center" style="font-size: 300%">
+    <h1>翻译</h1>
+    输入：<input type="text" id="ready_trans" />
+    <br />
+    <button type="button" class="btn btn-primary" onclick="trans()">翻译</button>
+    <select id="trans_method">
+        <option value="baidu">百度翻译</option>
+        <option value="wangyi">网易翻译</option>
+    </select>
+    <br />
+    结果：<input type="text" id="result_trans" readonly="readonly" />
+</div>
+
+<!--my js.doc-->
+<script type="text/javascript" src="js/translation_js.js"></script>
+</body>
+</html>

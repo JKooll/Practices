@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0842d36a-b702-47da-b697-e79c826fc5ea" name="aws" url="http://52.42.239.114">
+        <fileTransfer host="52.42.239.114" port="22" privateKey="C:\Users\JKol\window_aws.pem" rootFolder="/home/ubuntu/www/gamesocket" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+参考：
+- MDN Canvas 文档 -- https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API
+- jquery
+- jCanvas https://projects.calebevans.me/jcanvas/docs/lines/
+- RGB颜色值与十六进制 http://www.sioe.cn/yingyong/yanse-rgb-16/
+- CSS元素居中对齐 https://zhanglun.github.io/2014/09/30/css%E5%85%83%E7%B4%A0%E5%B1%85%E4%B8%AD%E5%AF%B9%E9%BD%90%E5%A4%A7%E6%B3%95/

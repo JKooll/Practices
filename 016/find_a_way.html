@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Find a Way</title>
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <canvas id="board" ></canvas>
+
+        <div>
+            <button type="button" name="calculate">计算路径</button>
+        </div>
+        <hr/>
+
+        <div name="init_board">
+            绘制棋盘
+            <hr/>
+            宽度: <input type="text" name="width" value=""/>
+            高度: <input type="text" name="height" value=""/>
+            <button type="button" name="draw">绘制</button>
+        </div>
+
+        <div name="set_obstacles">
+            设置障碍点
+            <hr/>
+            x: <input type="text" name="x" value=""/>
+            y: <input type="text" name="y" value=""/>
+            <button type="button" name="set">设置</button>
+        </div>
+
+        <script src="jquery.min.js" charset="utf-8"></script>
+        <script src="jcanvas.min.js" charset="utf-8"></script>
+        <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
