@@ -1,4 +1,5 @@
-# Practices
+<img width="100%" src="assets/cover-image.png">
+<h1 align="center">Practices</h1>
 这个仓库记录我学习的时候写的程序。
 
 ## 目录
