@@ -1,0 +1,20 @@
+<template name="a69ac042">
+  <view id="wrapper" class="_div data-v-6745d98c">
+    <view id="app" class="_div data-v-6745d98c">
+      <view class="_div data-v-6745d98c calculator">
+        <view class="_div data-v-6745d98c calculator-display">
+          <view class="_div data-v-6745d98c auto-scaling-text">
+            {{displayValue}}
+          </view>
+        </view>
+        <view class="_div data-v-6745d98c calculator-keypad">
+          <view class="_div data-v-6745d98c calculator-row"><button class="_button data-v-6745d98c calculator-key function-key" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">{{clearText}}</button> <button class="_button data-v-6745d98c calculator-key function-key" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">±</button> <button class="_button data-v-6745d98c calculator-key function-key" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">%</button> <button class="_button data-v-6745d98c calculator-key operator-key" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">÷</button></view>
+          <view class="_div data-v-6745d98c calculator-row"><button class="_button data-v-6745d98c calculator-key digit-key key-7" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">7</button> <button class="_button data-v-6745d98c calculator-key digit-key key-8" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">8</button> <button class="_button data-v-6745d98c calculator-key digit-key key-9" bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}">9</button> <button class="_button data-v-6745d98c calculator-key operator-key" bindtap="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}">×</button></view>
+          <view class="_div data-v-6745d98c calculator-row"><button class="_button data-v-6745d98c calculator-key digit-key key-4" bindtap="handleProxy" data-eventid="{{'8'}}" data-comkey="{{$k}}">4</button> <button class="_button data-v-6745d98c calculator-key digit-key key-5" bindtap="handleProxy" data-eventid="{{'9'}}" data-comkey="{{$k}}">5</button> <button class="_button data-v-6745d98c calculator-key digit-key key-6" bindtap="handleProxy" data-eventid="{{'10'}}" data-comkey="{{$k}}">6</button> <button class="_button data-v-6745d98c calculator-key operator-key" bindtap="handleProxy" data-eventid="{{'11'}}" data-comkey="{{$k}}">−</button></view>
+          <view class="_div data-v-6745d98c calculator-row"><button class="_button data-v-6745d98c calculator-key digit-key key-1" bindtap="handleProxy" data-eventid="{{'12'}}" data-comkey="{{$k}}">1</button> <button class="_button data-v-6745d98c calculator-key digit-key key-2" bindtap="handleProxy" data-eventid="{{'13'}}" data-comkey="{{$k}}">2</button> <button class="_button data-v-6745d98c calculator-key digit-key key-3" bindtap="handleProxy" data-eventid="{{'14'}}" data-comkey="{{$k}}">3</button> <button class="_button data-v-6745d98c calculator-key operator-key" bindtap="handleProxy" data-eventid="{{'15'}}" data-comkey="{{$k}}">+</button></view>
+          <view class="_div data-v-6745d98c calculator-row"><button class="_button data-v-6745d98c calculator-key digit-key key-0" bindtap="handleProxy" data-eventid="{{'16'}}" data-comkey="{{$k}}">0</button> <button class="_button data-v-6745d98c calculator-key digit-key key-dot" bindtap="handleProxy" data-eventid="{{'17'}}" data-comkey="{{$k}}">●</button> <button class="_button data-v-6745d98c calculator-key operator-key" bindtap="handleProxy" data-eventid="{{'18'}}" data-comkey="{{$k}}">=</button></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

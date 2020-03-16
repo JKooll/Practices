@@ -1,0 +1,72 @@
+
+page {
+  box-sizing: border-box;
+}
+page {
+  font: 100 28rpx 'Roboto';
+}
+page,
+page {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+._button::after {
+  border-radius: 0;
+}
+.currency-list {
+  height: 50%;
+}
+.currency-list .currency-list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 20%;
+}
+.currency-list .currency-list-item .currency-list-item-col {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.key-pad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 50%;
+  width: 100%;
+}
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0;
+}
+.key:active {
+  box-shadow: inset 0 0 160rpx 0 rgba(0, 0, 0, 0.25);
+}
+.key-pad .key-calculator {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.key-pad .key-0 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+#wrapper {
+  height: 100vh;
+}
+#app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.key-pad .digit-key {
+  background: #e0e0e7;
+  font-size: 2.25em;
+}
+.key-pad .operation-key {
+  background: linear-gradient(to bottom, rgba(252, 156, 23, 1) 0%, rgba(247, 126, 27, 1) 100%);
+  font-size: 3em;
+  color: #ffffff;
+}

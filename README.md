@@ -1,4 +1,7 @@
-# practice
+# Practices
+这个仓库记录我学习的时候写的程序。
+
+## 目录
 - 001: 贪吃蛇 
 - 002: 辅助程序
 - 003: wechat
@@ -32,18 +35,4 @@
 - 031：五星红旗
 - 032：杭电选题代码
 - 033: upload_img_上传图片
-
-## todo
-- php留言本
-- 转盘抽奖
-- Laravel实现用户注册登录
-- PHP制作文件分享网站
-- PHP会话控制
-- PHP学生管理系统
-- TP实现云书签
-- Laravel实现多用户博客系统
-- PHP微信公众号接口
-- PHP开发在线聊天室
-- 基于Bootstrap和PHP实现百度翻译 >Link:http://www.jianshu.com/p/48d004c1bb9b#
-- 生成验证码
-- 分页
+- [SuperAccuracyRateCalculator](SuperAccuracyRateCalculator)

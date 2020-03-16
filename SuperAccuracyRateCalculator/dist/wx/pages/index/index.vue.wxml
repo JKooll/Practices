@@ -1,0 +1,23 @@
+<template name="3daa67eb">
+  <view id="wrapper" class="_div data-v-88d3f0a0">
+    <view id="app" class="_div data-v-88d3f0a0">
+      <view class="_div data-v-88d3f0a0 currency-list">
+        <view class="_div data-v-88d3f0a0 currency-list-item" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{selectedCountryOrAreas}}" wx:for-index="index" wx:for-item="item">
+          <view class="_div data-v-88d3f0a0 currency-list-item-col">
+            <image src="{{item.flag}}" mode="widthFix" style="width: 32px;" class="_image data-v-88d3f0a0"></image>
+          </view>
+          <view class="_div data-v-88d3f0a0 currency-list-item-col">{{item.currencies[0].code}} {{item.currencies[0].symbol}}</view>
+          <view class="_div data-v-88d3f0a0 currency-list-item-col">{{item.displayValue}}</view>
+          <view class="_div data-v-88d3f0a0 currency-list-item-col">
+            <radio class="_radio data-v-88d3f0a0 radio" checked="{{baseCurrency === item.alpha2Code}}" />
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-88d3f0a0 key-pad"><button class="_button data-v-88d3f0a0 key key-clear operation-key" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">C</button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">7</button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">8</button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">9</button> <button class="_button data-v-88d3f0a0 key operation-key" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">
+          <i-icon type="refresh" clor="#FFFFFF" size="53" class="_i-icon data-v-88d3f0a0"></i-icon>
+        </button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}">4</button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}">5</button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'8'}}" data-comkey="{{$k}}">6</button> <button class="_button data-v-88d3f0a0 key operation-key key-calculator" bindtap="handleProxy" data-eventid="{{'9'}}" data-comkey="{{$k}}">
+          <image style="width: 53px;" mode="widthFix" src="../../static/images/calculator.png" class="_image data-v-88d3f0a0"></image>
+        </button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'10'}}" data-comkey="{{$k}}">1</button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'11'}}" data-comkey="{{$k}}">2</button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'12'}}" data-comkey="{{$k}}">3</button> <button class="_button data-v-88d3f0a0 key key-0 digit-key" bindtap="handleProxy" data-eventid="{{'13'}}" data-comkey="{{$k}}">0</button> <button class="_button data-v-88d3f0a0 key digit-key" bindtap="handleProxy" data-eventid="{{'14'}}" data-comkey="{{$k}}">●</button></view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/calculator/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "超级汇率计算器",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "i-icon": "static/iview/icon/index",
+    "i-row": "static/iview/row/index",
+    "i-col": "static/iview/col/index",
+    "i-radio": "static/iview/radio/index"
+  },
+  "cloud": true,
+  "sitemapLocation": "sitemap78.json"
+}
