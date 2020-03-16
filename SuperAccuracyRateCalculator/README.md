@@ -1,4 +1,5 @@
-# Super Accuracy Rate Calculator（超级汇率计算器）
+<img width="100%" src="../assets/cover-image.png">
+<h1 align="center">Super Accuracy Rate Calculator（超级汇率计算器）</h1>
 超级汇率计算器是一款基于mpvue开发的微信小程序。这个微信小程序集成实时汇率换算和计算器两种功能，不需要切换计算器应用也可以进行简单运算并显示实施汇率。这个小程序支持世界上大多数货币的汇率换算。
 
 ## 运行项目
